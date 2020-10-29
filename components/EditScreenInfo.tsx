@@ -16,6 +16,12 @@ export default function EditScreenInfo({ path }: { path: string }) {
           darkColor="rgba(255,255,255,0.8)">
           Bienvenidos a Misiones IT 🤗
         </Text>
+        <Text
+          style={styles.getStartedText}
+          lightColor="rgba(0,0,0,0.8)"
+          darkColor="rgba(255,255,255,0.8)">
+          comit.ar
+        </Text>
       </View>
 
       <View style={styles.helpContainer}>
